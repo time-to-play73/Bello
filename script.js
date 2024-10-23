@@ -25,7 +25,7 @@ function humanMove(event) {
         board[index] = human;
         event.target.textContent = human;
         if (checkWinner(human)) {
-            showMessage("You won! 🏆 Get ready for the 'Learn How to Learn' session! Prepare for cinema surprises! 🎬");
+            showMessage("Bello: You won! 🏆 Get ready for the 'Learn How to Learn' session! Prepare for cinema surprises! 🎬");
             return;
         }
         if (!board.includes(null)) {
